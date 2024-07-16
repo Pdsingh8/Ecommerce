@@ -1,0 +1,113 @@
+.contactus-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.contactus-hero {
+    background: linear-gradient(135deg, #5f2c82, #49a09d);
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+}
+
+.contactus-title {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.contactus-subtitle {
+    font-size: 1.5em;
+    color: #fefefe;
+}
+
+.contactus-section {
+    padding: 50px 20px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.contactus-section:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.contactus-heading {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #5f2c82;
+    text-align: center;
+}
+
+.contactus-text {
+    font-size: 1.1em;
+    color: #555;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contactus-icon {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #49a09d;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactus-details {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.contactus-info {
+    flex: 1;
+    padding: 20px;
+}
+
+.contactus-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.contactus-form-group {
+    margin-bottom: 20px;
+}
+
+.contactus-form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1em;
+    color: #333;
+}
+
+.contactus-form-input, .contactus-form-textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contactus-form-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #5f2c82;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contactus-form-button:hover {
+    background-color: #49a09d;
+}

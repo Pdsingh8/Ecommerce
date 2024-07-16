@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wishlist-h1{
+    display: flex;
+}
+
+.wishbox{
+    width: 100%;
+    height: 100%
+}
+.wishproducts{
+    background-color: rgb(255, 229, 234);
+    width: 100%;
+    height: 100%;
+}
+
+.heart{
+    color: hotpink;
+    font-size: 30px;
+    /* background-color: black; */
+    margin-top: 6px;
+    margin-left: 5px;
+    width: 5%;
+    text-align: center;
+    /* display: flex; */
+}

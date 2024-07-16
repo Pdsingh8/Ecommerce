@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    /* background: url("https://assets.materialup.com/uploads/fcff517f-d8a4-4c1c-b02a-dab9dd2b6a43/attachment.gif"); */
+    background-repeat:no-repeat ;
+    background-size: cover;
+    cursor: url('/src/assets/cursors.png'),auto;
+    /* background-color: rgb(245, 241, 237); */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* background:linear-gradient(-120deg, #4285f4, #34a853, #fbbc05, #ea4335); */
+
+.wc-in{
+    font-weight: 600;
+    font-size: 34px;
+    padding-top: 120px;
+    margin-bottom: 0px;
+    margin-right: 60px;
+}
+
+.wc-ds{
+    font-size: 14px;
+    color: #818183;
+    font-weight: 500;
+    text-align: center;
+    margin-right: 48px;
+    
+}
+
+.signimg{
+    width: 30%;
+    border-radius: 15px;
+    height: 80vh;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+h2{
+    display: flex;
+    font-size: 35px;
+    margin-bottom: 30px;
+    
+    justify-content: center;
+}
+
+.form-container{
+
+    /* background: url("https://img.freepik.com/free-vector/gradient-blur-pink-blue-abstract-background_53876-117324.jpg"); */
+    background-color:#565656; /*   */  
+    
+    border: 1px solid black;
+    /* margin-left: 80px; */
+    /* font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    
+    /* place-items: center; */
+    
+}
+
+
+
+.logform{
+    
+    background-image: url("");
+    width: 40%;
+    height: 85vh;
+    background-color: #F8F8F8;
+    margin-top: 40px;
+    
+}
+
+.em-label{
+    display: inline-block;
+    margin-left: 19px;
+    font-size: 18px;
+    margin-bottom: 4px;
+    font-weight: 400;
+    
+}
+
+.pass-label{
+    display: inline-block;
+    margin-left: 19px;
+    font-size: 18px;
+    margin-bottom: 4px;
+    font-weight: 400;
+    
+}
+.email-signin{
+    margin-left: 14px;
+    width: 60%;
+    height: 5vh;
+    border-radius: 12px;
+    border: 1px solid #636364 ;
+    box-shadow: #565656;
+}
+
+::placeholder {
+   /* color: rgb(166, 74, 74); */
+   font-weight: 100;
+    font-size: 15px;
+    padding-left: 15px;
+   
+    height: 10vh;
+    
+  }
+/* #user:hover{
+    
+} */
+
+.pass-input{
+    margin-left: 14px;
+    width: 60%;
+    border-radius: 12px;
+    border: 1px solid #636364;
+    height: 5vh;
+}
+/* input{
+    width: 90%;
+    height: 5vh;
+    margin-top: 10px;
+} */
+
+.username{
+    margin-bottom: 20px;
+    display: block;
+    margin-left: 8rem;
+    margin-top: 3rem;
+    align-content: center;
+}
+.password{
+    height: 10vh;
+    margin-left: 8rem;
+}
+
+.forgot {
+    /* float: right; */
+    /* margin-top: 10px; */
+    /* padding-top: px; */
+
+    margin-left: 11px;
+    /* margin-right: 15px; */
+}
+
+
+
+.caa{
+    margin-left: 18rem;
+   
+   
+}
+/* .forgot{
+    margin-top: 20px;
+} */
+.log{
+    width: 47%;
+    height: 5vh;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background-color: #EA454C;
+    color: white;
+    border: 1px solid #EA454C;
+    border-radius: 12px;
+    margin-top: 40px;
+    /* display: flex; */
+    margin-left: 9rem;
+    cursor: pointer;
+}
+
+.log:hover{
+    background-color:white;
+    color: #EA454C;
+    font-weight: 600;
+    letter-spacing: 5px;
+    border: 3px solid white;
+    border-radius: 3px;
+    /* rotate: -3deg; */
+}
+
+.google-in{
+    margin-left: 9rem;
+    width: 47%;
+    height: 5vh;
+    background-color: white;
+    border-radius: 12px;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #636364 ;
+    box-shadow: #565656;
+}
+
+.google-in:hover{
+    letter-spacing: 1px;
+    
+}
+
+.gg-icon{
+    font-size: 28px;
+    margin-right: 10px;
+}
+
+.dont-exist{
+    margin-top: 9px;
+    margin-left: 9rem;
+    color: #565656;
+    font-weight: 500;
+    
+    
+}
+
+.sign-link{
+    color: #EA454C;
+    text-decoration: none;
+    margin-left: 5px;
+    
+}
+
+/* .log:active{
+    rotate: none;
+} */
+
+
+
+/* .other-option .signwith{
+    margin-left: 150px;
+    height: 10vh;
+
+
+
+} */
+
+    .other-option{
+    margin-top: 0px;
+    display:grid;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    margin-right: 40px;
+   
+}
+.other-option button{
+    
+    background-color: white;
+    color: black;
+    margin-right: 90px;
+    /* margin-left: 10rem; */
+    margin-top: 29px;
+    float: right;
+    justify-content: center;
+    border-radius: 3px;
+    border: 1px solid white;
+    width: 150px;
+    height: 4vh;
+    font-size: 18px;
+}
+
+.brand-logo{
+    height: 14vh;
+}
+
+
+
+.new{
+    margin-left: 90px;
+}
+.signwith{
+    /* background-color: antiquewhite; */
+    margin-top: 15px;
+    text-align: center;
+    height: 4vh;
+    width: 40%;
+    margin-left: 12rem;
+
+}
+
+hr{
+    margin-left: 7rem;
+    margin-top: 29px;
+    width: 70%;
+    
+    
+}
+
+.newatstumble{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+
+.run-img{
+    width: 35%;
+    height: 85vh;
+    margin-top: 40px;
+}
