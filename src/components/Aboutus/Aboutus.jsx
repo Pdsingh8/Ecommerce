@@ -69,38 +69,3 @@ function Aboutus() {
 }
 
 export default Aboutus;
-
-
-
-
-
-
-
-{/* <div className="main-about">
-    <div className="about-info">
-        <h1 className="we-are">~ WHO WE ARE</h1>
-        <h1 className="we-help">We Help To Get Solutions</h1>
-        <p className="about-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Repudiandae non harum asperiores, numquam aspernatur 
-        sapiente. Error impedit eaque in dolor!</p>
-
-        <div className="about-opt">
-            <HiOutlineRocketLaunch className='rocket ' />
-            <p className="img-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, delectus?</p>
-
-            <GiLightBulb className='bulb' />
-            <p className="img-des">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, est tempore?</p>
-        </div>
-
-        <button className="our-team">OUR TEAM</button>
-    </div>
-
-        <div className="about-image">
-        <img src="" alt="" className="hr-img" />
-        <div className="overlay-div">
-            <p className="over-p">Lorem ipsum dolor sit amet.</p>
-            <p className="look-help">Looking for help</p>
-            <p className="over-p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum dolorem quos fuga.</p>
-        </div>
-        </div>
-</div> */}

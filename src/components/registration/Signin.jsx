@@ -1,6 +1,7 @@
 import React from 'react'
 import './Signin.css'
 import { FcGoogle } from "react-icons/fc";
+import { Link } from 'react-router-dom';
 
 
 
@@ -23,16 +24,8 @@ function Signin() {
             </div> 
             <button className="log">Login</button><br></br><br/>
             <button className="google-in"><FcGoogle className='gg-icon'/> Sign in with Google </button>
-            <p className="dont-exist">Don’t have an account?<a href="#"  className="sign-link">Sign up for free!</a></p>
-            {/* <div className="other-option">
-                <p className="signwith"> or  sign in with </p>
-                <hr/>
-                <div className="brand-logo">
-                <button className=''><FaGoogle className='google-icon'/></button>
-                <button className='fb-icon '><FaFacebook/></button> 
-                </div>
-                
-                </div> */}
+            <p className="dont-exist">Don’t have an account?<Link to={'/Signup'}><a href="#"  className="sign-link">Sign up for free!</a></Link></p>
+            
         </form>
         
             <img src="/src/assets/run.png" alt="" className="run-img" />

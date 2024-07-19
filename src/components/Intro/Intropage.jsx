@@ -49,15 +49,17 @@ function Intropage() {
 
             <div className="procategory" data-aos="fade-up">
                 <h1>PRODUCTS</h1>
-                <div className="products-cat">
+                <Link to={'/Allproducts'}> <div className="products-cat">
                     {prodata.map((i) => (
                         <Product key={i.id}
                             proimg={i.proimg}
                             proname={i.proname}
 
                         />
+                       
                     ))}
                 </div>
+                </Link>
 
             </div>
             

@@ -32,7 +32,7 @@ function Nav() {
                         </div>
                     </li>
                     
-                    <li><a href="">Products</a></li>
+                    <li><Link to={'/Allproducts'}>Products </Link></li>
                     <li> <div className="dropdown">
                         <button className="dropbtn"><BsPersonCircle className="profile-icon" /></button>
                         <div className="dropdown-content">
@@ -40,7 +40,7 @@ function Nav() {
                             <Link to={'/Signin'}>Login</Link>
                             <Link to={'/Signup'}>Sign up</Link>
                             <Link to={'/Wishlist'}>Wishlist</Link>
-                            <Link to={'/Addcart'}>Add to cart</Link>
+                            <Link to={'/Addcart'}>Your Cart</Link>
                             {/* <Link to={'/Orders'}>YOUR ORDERS</Link> */}
 
 

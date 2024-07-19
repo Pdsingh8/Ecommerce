@@ -52,33 +52,5 @@ function Home() {
 export default Home;
 
 {
-  /* <div className="main">
-      <Card 
-        imgUrl={"https://cdn.pixabay.com/photo/2017/03/13/06/09/window-2138845_640.jpg"}
-        title={"Nike 5"}
-        company={"Air Max 2"}
-        price={"$1,23"}
-
-      />
-      <Card 
-        imgUrl={"https://cdn.pixabay.com/photo/2015/02/11/17/04/shoe-632702_640.jpg"}
-        title={"Nike 5"}
-
-
-
-
-        company={"Air Max 2"}
-        price={"$1,23"}
-
-      />
-
-<Card 
-        imgUrl={"https://cdn.pixabay.com/photo/2020/03/14/16/22/shoes-4931099_640.jpg"}
-        title={"Nike 5"}
-        company={"Air Max 2"}
-        price={"$1,23"}
-
-      />
-      
-    </div> */
+  
 }

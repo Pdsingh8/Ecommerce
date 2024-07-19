@@ -8,13 +8,12 @@ import { FaHeart } from "react-icons/fa";
 
 
 function Men() {
-  const { MenData } = useContext(Pro);
-  console.log(MenData);
+  const { MenData,handleAddToWishlist } = useContext(Pro);
+  
 
 
   return (
-    // <div className="main-men">
-    // <FaHeart className="wishlist"/>
+      
       <div className="men">
         {MenData.map((i) => {
           return (
@@ -26,7 +25,7 @@ function Men() {
                 <p className="infos">{i.company}</p>
                 <p className="infos">{i.price}</p>
               </div>
-              <FaHeart className="wishlist" />
+              <button><FaHeart className="wishlist" onClick={() => handleAddToWishlist(i)} /></button> 
             </div>
           );
         })}

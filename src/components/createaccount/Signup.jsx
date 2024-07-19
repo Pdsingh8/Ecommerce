@@ -3,7 +3,7 @@ import './Signup.css';
 import { FaStumbleupon } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
 import { FaFacebook } from "react-icons/fa";
-
+import { Link } from 'react-router-dom';
 
 
 
@@ -14,8 +14,7 @@ function Signup() {
     return (
     <>
 
-    {/* grey=BEBCBC  button=1F485B* background=#1A4A60/}
-    {/* backdiv */}
+    
     <div className="back-div">
     
     {/* maindivs */}
@@ -39,7 +38,7 @@ function Signup() {
             <input type="email" placeholder='Email' className='Email' />
             <input type="password" placeholder='Password' className='Password'/>
             <button className='ca-button'>Create Account</button>
-            <p className="acc-exist">Already have an account? <a href="#"  className="acc-link">Login</a></p>
+            <p className="acc-exist">Already have an account? <Link to={'/Signin'} > <a href="#" className="acc-link">Login</a></Link> </p>
 
         </div>
         </div>

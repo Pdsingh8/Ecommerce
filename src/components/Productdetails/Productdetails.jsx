@@ -19,8 +19,7 @@ const Productdetails = () => {
         <p className="product-price">{product.price}</p>
         <p className="product-description">{product.company}</p>
         <p className="product-category">{product.title}</p>
-    
- 
+        
         <button className="add-to-cart-btn" onClick={() => handleAddToCart(product) }>Add to Cart</button>
       </div>
     </div>
